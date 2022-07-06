@@ -1,0 +1,54 @@
+.contacto__form{
+    margin: 60px 0;
+    padding: 0 20px;
+}
+@media (min-width: 760px){
+    .contacto__form{
+        margin: 116px 0 ;
+    }
+}
+    
+.contacto__form-label,
+.contacto__form-input,
+.contacto__form-textarea,
+.contacto__form-button{
+    display: block;
+    width: 100%;
+    font-family:"Poppins";
+    font-size: 13px;
+}
+.contacto__form-input,
+.contacto__form-textarea,
+.contacto__form-button{
+    padding: 10px;
+}
+.contacto__form-input{
+    margin-bottom: 20px;
+}
+.contacto__form-textarea{
+    min-height: 113px;
+    margin-bottom: 60px;
+}
+.contacto__form-button{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #2C2C2C;
+    border: none;
+}
+
+.form__cartel-enviado{
+    display: none;
+    position: relative;
+    background-color: rgb(8, 183, 31);
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+.form__cartel-enviado > h4{
+    text-align: center;
+    color: #FAFAFA;
+    font-family: "Poppins";;
+    font-size: 16px;
+    font-weight: 700;
+}

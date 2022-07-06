@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+}
+.welcome{
+    overflow: hidden;
+    background-image: url("");
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y:center;
+    background-size: cover;
+}
+
+.welcome__title, 
+.welcome__subtitle{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.welcome__title{
+    padding-top: 170px;
+    font-size: 48px;
+}
+.welcome__subtitle{
+    padding-bottom: 170px;
+    font-size: 32px;
+}
+
+
+.presentacion{
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #141414;
+    color: #FAFAFA;
+}
+@media (min-width: 760px){
+    .presentacion{
+        background-color: #FFFFFF;
+        color: #2C2C2C;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.presentacion__cnt-img{
+    display: none;   
+}
+@media (min-width: 760px){
+    .presentacion__cnt-img{
+        display: block;
+        margin: 0 auto;   
+    }
+}
+.presentacion__cnt-title{
+    padding: 65px 32px;
+    overflow: hidden;
+}
+@media (min-width: 760px){
+    .presentacion__cnt-title{
+        padding: 65px 15px;
+    }
+}
+.presentacion__title{
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 32px;
+}
+@media (min-width: 760px){
+    .presentacion__title{
+        text-align: initial;
+    }
+}
+.presentacion__text{
+    margin: 0;
+    margin-top: 46px;
+    font-family: "Poppins";
+    font-size: 16px;
+    text-align: initial;
+}
+
+.contacto{
+    background-color: #141414;
+    overflow: hidden;
+}
+.contacto__ctn-form{
+    margin: 0 auto;
+    max-width: 960px;
+    color: #fafafa;
+}
+
+@media (min-width: 760px){
+    .contacto__ctn-form{
+        display: grid;
+        gap: 70px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.contacto__title{
+    margin: 0;
+    margin-top: 70px;
+    font-family: "Montserrat";
+    font-size: 32px;
+    text-align: center;
+}
+@media (min-width: 760px){
+    .contacto__title{
+        margin-top: 116px;
+        font-size: 48px;
+        text-align: right;
+    }
+}
+
+
+.servicios{
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+.servicios__title{
+    margin: 0;
+    margin-top: 70px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 32px;
+}
+.servicios__item-cnt{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+@media (min-width: 760px){
+    .servicios__item-cnt{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 65px;
+        justify-content: center;
+        align-items: normal;
+    }
+}
+
+
+
+
+
+
+       
+
+
+
+
